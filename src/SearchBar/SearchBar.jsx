@@ -1,16 +1,16 @@
-const SearchBar = () => {
-  const [inputValue, setInputValue] = useState("");
+// const SearchBar = () => {
+//   const [inputValue, setInputValue] = useState("");
 
-  const handleChange = (evt) => {
-    setInputValue(evt.target.value);
-  };
+//   const handleChange = (evt) => {
+//     setInputValue(evt.target.value);
+//   };
 
-  return (
-    <div>
-      <input type="text" value={inputValue} onChange={handleChange} />
-      <p>{inputValue}</p>
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       <input type="text" value={inputValue} onChange={handleChange} />
+//       <p>{inputValue}</p>
+//     </div>
+//   );
+// };
 
-export default SearchBar;
+// export default SearchBar;
